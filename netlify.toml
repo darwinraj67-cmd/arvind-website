@@ -1,0 +1,6 @@
+[build]
+  publish   = "public"            # only this folder is public - keep secrets and server code outside it
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
